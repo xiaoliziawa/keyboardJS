@@ -1,0 +1,1 @@
+net.prizowo.keyboardjs.kubejs.KeyboardJSPlugin

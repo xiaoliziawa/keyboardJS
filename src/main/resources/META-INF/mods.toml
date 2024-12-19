@@ -1,0 +1,42 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "MIT" # https://choosealicense.com/
+
+
+# issueTrackerURL="https://github.com/invalid/pleasechangeme/issues"
+
+[[mods]]
+modId = "keyboardjs"
+version = "${version}"
+displayName = "KeyboardJS"
+logoFile="icon.png"
+# credits="Thanks to FooterMan for the KubeJS Addon Template!"
+# authors="YourNameHere"
+description = '''
+KeyboardJS.
+'''
+
+[[dependencies.keyboardjs]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.keyboardjs]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.keyboardjs]]
+modId = "kubejs"
+mandatory = true
+versionRange = "[2001.6.4,)"
+ordering = "NONE"
+side = "BOTH"
+
+[mods.${mod_id}]
+displayTest="IGNORE_ALL_VERSION"
+configuredMixins=["mixins.keyboardjs.json"]

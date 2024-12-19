@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "net.prizowo.keyboardjs.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "mixins.keyboardjs.refmap.json",
+  "minVersion": "0.8",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+} 
